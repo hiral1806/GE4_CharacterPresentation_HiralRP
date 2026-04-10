@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1561016980}
-  offset: {x: 0, y: 0.04, z: 1.82}
+  offset: {x: 0, y: 0.52, z: 1.82}
   followSpeed: 8
 --- !u!137 &352014412 stripped
 SkinnedMeshRenderer:
