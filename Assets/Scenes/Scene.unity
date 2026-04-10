@@ -289,13 +289,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.026874756, y: 0, z: 0, w: 0.99963886}
-  m_LocalPosition: {x: 0.12, y: 1.14, z: -2.76}
+  m_LocalRotation: {x: 0, y: 0.99963886, z: 0.026874756, w: 0}
+  m_LocalPosition: {x: -0.01, y: 1.31, z: 1.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -3.08, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -3.08, y: 180, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 413252872}
-  offset: {x: 0, y: 0.28, z: -3.04}
+  offset: {x: 0, y: 0.25, z: -1.84}
   followSpeed: 8
 --- !u!137 &352014412 stripped
 SkinnedMeshRenderer:
@@ -420,6 +420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GAD4_Character_FinalCharacterPresentation_HiralRP
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad985422f262ba74483d49d26cbb5fd0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4422936236625503000, guid: ad985422f262ba74483d49d26cbb5fd0, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -446,7 +450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4422936236625503000, guid: ad985422f262ba74483d49d26cbb5fd0, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[5]'
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4422936236625503000, guid: ad985422f262ba74483d49d26cbb5fd0, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[7]'
@@ -454,7 +458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4422936236625503000, guid: ad985422f262ba74483d49d26cbb5fd0, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[8]'
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
