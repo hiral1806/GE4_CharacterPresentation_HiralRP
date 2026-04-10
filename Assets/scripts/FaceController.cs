@@ -52,29 +52,27 @@ public class FaceController : MonoBehaviour
             ResetTargets();
             SetTargetShape("Lips_Strech", 100f);
             SetTargetShape("Lips_Strech", 100f);
-            SetTargetShape("Lips_Strech", 100f);
-            SetTargetShape("Lips_Strech", 100f);
-            SetTargetShape("Lips_Strech", 100f);
-            SetTargetShape("Lips_Strech", 100f);
-            SetTargetShape("Lips_Strech", 100f);
+            
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             ResetTargets();
-            SetTargetShape("EyebrowDown_L", 35f);
-            SetTargetShape("EyebrowDown_R", 35f);
-            SetTargetShape("Blink_L", 100f);
-            SetTargetShape("Blink_R", 100f);
-            SetTargetShape("Pursed Mouth", 100f);
+            SetTargetShape("L_topLid_Down", 100f);
+            SetTargetShape("L_BottomLid_Up", 100f);
+            SetTargetShape("R_BottomLid_up", 100f);
+         
+            
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             ResetTargets();
-            SetTargetShape("EyebrowUp_L", 70f);
-            SetTargetShape("EyebrowUp_R", 20f);
-            SetTargetShape("Smile", 40f);
+            SetTargetShape("L_LidDown_Angry", 100f);
+            SetTargetShape("R_LidDown_Angry", 100f);
+            SetTargetShape("Lip_Strech_Angry", 100f);
+            SetTargetShape("L_Brows", 100f);
+            SetTargetShape("R_Brows", 100f);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha0))
