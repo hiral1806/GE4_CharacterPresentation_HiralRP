@@ -32,7 +32,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Samri
+  m_Name: AnimatorController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Blend
@@ -69,7 +69,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: bad756b6837a14b4d975540f8bdf6a96, type: 3}
+    m_Motion: {fileID: -203655887218126122, guid: ebd054dc10da65f4fa6d4fa44c3d3c24, type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -77,7 +77,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 1a981069e29ad4c4aa9ae7f3c67f56c3, type: 3}
+    m_Motion: {fileID: -203655887218126122, guid: bad756b6837a14b4d975540f8bdf6a96, type: 3}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
